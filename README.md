@@ -6,6 +6,10 @@
 ![image](https://github.com/user-attachments/assets/84a655ca-3f37-4871-a7dd-ac436bc52f5d)
 
 ---
+
+## Problem Statement: 
+Tech Solutions Making Regenerative Agriculture Remunerative
+
 ## About Farmer's Hub
  FarmersHub is a leading platform dedicated to helping farmers succeed
           by using advanced technology and practical knowledge. Our goal is to
