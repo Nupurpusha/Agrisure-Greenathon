@@ -7,10 +7,10 @@
 
 ---
 
-## Problem Statement: 
+## Problem Statement
 Tech Solutions Making Regenerative Agriculture Remunerative
 
-## Solution:
+## Solution
 Our vision is to create "FarmersHub," a user-friendly platform that gives farmers the knowledge and tools they need to make regenerative farming both eco-friendly and profitable especially for small scale farmers with limited land area.
 
 ## About Farmer's Hub
