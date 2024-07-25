@@ -34,7 +34,7 @@
                     <div class="flex flex-col justify-center">
                       <h2 class="custom-heading font-bold mb-4">Farmer's Hub</h2> <!-- Applied custom class -->
                       <p class="custom-paragraphs text-muted-foreground mb-6">Farmer's Hub is a leading platform providing farmers with cutting-edge tools to manage their crops effectively. With our AI-driven weather forecasts, pest and weed control solutions, and community forums, we aim to revolutionize the agricultural industry.</p> <!-- Applied custom class -->
-                      <button
+                     <a href="./aboutUs.html"> <button 
                       style="
                         background-color: #555424; /* Green background */
                         color: white;
@@ -46,12 +46,11 @@
                         cursor: pointer; /* Pointer cursor on hover */
                         font-size: 1.5rem; /* Font size */
                         margin-top: 5px; /* Top margin */
-                      "
-                      onclick="window.location.href='your-link-here';"
+                      " 
                     >
                       Learn More
                     </button>
-                    
+                  </a>
                     </div>
        
     
@@ -181,6 +180,7 @@
                     Simply upload an image of the affected area, and our system will analyze it and provide
                     recommendations for treatment.
                   </p>
+                 <input class="fileUpload" type="file"  accept=".jpeg,.jpg,image/*" >
                   <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -225,7 +225,7 @@
                     Answer a few questions about your land, location, and goals, and we'll provide personalized
                     recommendations to maximize your yield and profitability.
                   </p>
-                  <button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">
+                  <a href="./quiz.html"><button class=" inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2" >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -242,7 +242,7 @@
                       <path d="m21 21-4.3-4.3"></path>
                     </svg>
                     Try Combo Finder
-                  </button>
+                  </button></a>
                 </div>
                 <div class="flex justify-center items-center">
                     <img
@@ -257,78 +257,9 @@
                 </div>
               </div>
             </section>
-         <!-- <form class="space-y-6">
-                    <div>
-                        <label for="crop-type" class="block text-lg font-semibold mb-2">Soil Type</label>
-                        <select id="crop-type" class="border border-input rounded-lg px-4 py-2 w-full">
-                            <option value="">Select Soil Type</option>
-                            <option value="corn">Sandy</option>
-                            <option value="wheat">Clay</option>
-                            <option value="soybean">Silt</option>
-                            <option value="soybean">Loams</option>
-                            <option value="soybean">Peat</option>
-                            <option value="soybean">Chalky</option>
-            
-                        </select>
-                    </div>
-                    <div>
-                        <label for="location" class="block text-lg font-semibold mb-2">Location</label>
-                        <input type="text" id="location" class="border border-input rounded-lg px-4 py-2 w-full" placeholder="Enter your location">
-                    </div>
-                    <div>
-                        <label for="location" class="block text-lg font-semibold mb-2">Land Owned</label>
-                        <input type="text" id="location" class="border border-input rounded-lg px-4 py-2 w-full" placeholder="Enter land owned in acres">
-                    </div>
-                    <div>
-                        <label for="location" class="block text-lg font-semibold mb-2">Crops Grown Previously </label>
-                        <input type="text" id="location" class="border border-input rounded-lg px-4 py-2 w-full" placeholder="Enter crops grown previously">
-                    </div>
-                    <div>
-                        <label for="location" class="block text-lg font-semibold mb-2">General Weather Conditions </label>
-                        <input type="text" id="location" class="border border-input rounded-lg px-4 py-2 w-full" placeholder="Enter weather conditions">
-                    </div>
-                    <button type="submit" class="bg-primary text-primary-foreground rounded-lg px-6 py-2 font-semibold">
-                        Find Combos
-                    </button>
-                </form> -->
-                <!-- <form class="p-12 space-y-16">
-                    <div class="space-y-4">
-                        <label for="soil-type" class="block text-lg font-semibold mb-3">Soil Type</label>
-                        <select id="soil-type" class="border border-input rounded-lg px-4 py-3 w-full">
-                            <option value="">Select Soil Type</option>
-                            <option value="sandy">Sandy</option>
-                            <option value="clay">Clay</option>
-                            <option value="silt">Silt</option>
-                            <option value="loams">Loams</option>
-                            <option value="peat">Peat</option>
-                            <option value="chalky">Chalky</option>
-                        </select>
-                    </div>
-                    <div class="space-y-4">
-                        <label for="location" class="block text-lg font-semibold mb-3">Location</label>
-                        <input type="text" id="location" class="border border-input rounded-lg px-4 py-3 w-full" placeholder="Enter your location">
-                    </div>
-                    <div class="space-y-4">
-                        <label for="land-owned" class="block text-lg font-semibold mb-3">Land Owned</label>
-                        <input type="text" id="land-owned" class="border border-input rounded-lg px-4 py-3 w-full" placeholder="Enter land owned in acres">
-                    </div>
-                    <div class="space-y-4">
-                        <label for="crops-grown" class="block text-lg font-semibold mb-3">Crops Grown Previously</label>
-                        <input type="text" id="crops-grown" class="border border-input rounded-lg px-4 py-3 w-full" placeholder="Enter crops grown previously">
-                    </div>
-                    <div class="space-y-4">
-                        <label for="weather-conditions" class="block text-lg font-semibold mb-3">General Weather Conditions</label>
-                        <input type="text" id="weather-conditions" class="border border-input rounded-lg px-4 py-3 w-full" placeholder="Enter weather conditions">
-                    </div>
-                    <button type="submit" class="bg-primary text-primary-foreground rounded-lg px-8 py-4 font-semibold text-lg w-full hover:bg-primary-dark focus:outline-none focus:ring-2 focus:ring-primary">
-                        Find Combos
-                    </button>
-                </form>
-                 -->
-               
+         
                 
-                
-                
+   
                 
             </div>
         </section>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./quizStyle.css" />
+    <title>Combo Finder</title>
+  </head>
+  <body>
+    <h1 class="heading">Combo Finder for Mixed Layer Farming</h1>
+    <div class="container">
+      <form>
+        <div class="columns">
+          <label for="crop-type">Soil Type</label>
+          <select id="crop-type">
+            <option value="">Select Soil Type</option>
+            <option value="corn">Sandy</option>
+            <option value="wheat">Clay</option>
+            <option value="soybean">Silt</option>
+            <option value="soybean">Loams</option>
+            <option value="soybean">Peat</option>
+            <option value="soybean">Chalky</option>
+          </select>
+        </div>
+        <div class="columns">
+          <label for="location">Location</label>
+          <input type="text" id="location" placeholder="Enter your location" />
+        </div>
+        <div class="columns">
+          <label for="land">Land Owned</label>
+          <input
+            type="text"
+            id="landOwned"
+            placeholder="Enter land owned in acres"
+          />
+        </div>
+        <div class="columns">
+          <label for="crops">Crops Grown Previously </label>
+          <input
+            type="text"
+            id="crops"
+            placeholder="Enter crops grown previously"
+          />
+        </div>
+        <div class="columns">
+          <label for="weather">General Weather Conditions </label>
+          <input
+            type="text"
+            id="weather"
+            placeholder="Enter weather conditions"
+          />
+        </div>
+        <div class="columns">
+          <label for="income">Estimated Income</label>
+          <input type="text" id="income" placeholder="Estimated Incomes" />
+        </div>
+
+        <div class="columns">
+          <label for="investment">Potential Investments</label>
+          <input
+            type="text"
+            id="Investments"
+            placeholder="Potential Investments"
+          />
+        </div>
+        <div class="buttonDiv">
+          <button class="comboFinderBtn" type="submit">Find Combos</button>
+        </div>
+      </form>
+      <div class="Image">
+        <img src="./image1.png" alt="image" />
+        <img src="./image2.png" alt="image" />
+      </div>
+    </div>
+  </body>
+</html>

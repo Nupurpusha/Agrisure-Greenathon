@@ -1,0 +1,90 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.container {
+  display: flex;
+  padding: 50px;
+}
+form {
+  padding: 10px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 70%;
+  background-color: #d1e2c4;
+  border-radius: 10px;
+}
+form input {
+  outline: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+form select {
+  outline: none;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid gray;
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.comboFinderBtn {
+  background-color: #555424;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px;
+  width: 80%;
+  height: 40px;
+}
+.comboFinderBtn:hover {
+  background-color: green;
+}
+.buttonDiv {
+  text-align: center;
+}
+.Image {
+  margin: 100px;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  gap: 50px;
+}
+.heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+  background-color: #555424;
+  border-radius: 5px;
+}
+.Image img {
+  height: 250px;
+  width: 450px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
