@@ -59,6 +59,9 @@ header {
   color: #00ff00;
   padding: 1.2rem 1.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav a {
