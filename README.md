@@ -62,3 +62,18 @@ Our vision is to create "FarmersHub," a user-friendly platform that gives farmer
             focus on what matters most—growing your farm business.
 ---
 
+## 🤝Contributing
+
+We welcome contributions! Please [open an issue](https://github.com/Nupurpusha/Agrisure-Greenathon/issues) or submit a pull request with improvements or new features.
+
+![Contribute](https://forthebadge.com/images/badges/built-with-love.svg)
+
+---
+
+## 📜License
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](https://github.com/Nupurpusha/Build-Your-Own-Blogging-Software/blob/main/LICENSE.txt) file for more details.
+
+
+
